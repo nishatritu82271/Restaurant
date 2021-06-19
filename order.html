@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Online Food Order-Order</title>
+<style>
+	body{
+		background-color: lightgreen;
+	}
+	h3{
+		text-align: center;
+		color: grey;
+		font-size: 20px;}
+
+	.header{
+		width: 40%; margin-left: 350px ; color: lightgreen; background: green; text-align: left; border: 1px solid #B0C4DE; border-bottom: none;  padding: 20px;}
+	
+	.box{
+		width:1000px;
+			float:right;
+	}
+	.box ul li a{
+			text-decoration: none;
+			color: green;
+			font-size: 25px;
+			 }
+			 .box ul li:hover{background-color: darkgrey;}
+	.box ul li a:hover{color: white;}
+
+	.box ul li{
+			width: 120px;
+			float: left;
+			margin:10px auto;
+			text-align: center;}
+	
+	
+
+   .cn{ text-align: center; margin: 50px; }
+
+.info .a { width: 40%; margin: 0px 350px; color: lightgreen; background: green; text-align: left; border: 1px solid #B0C4DE; border-bottom: none;  padding: 20px; }
+	
+ .input-group{ margin: 0px 10px 0px 10px; }
+	.btn{ padding: 10px; margin-left: 400px;font-size: 20px; color: white; background: lightgreen; border: none; border-radius:5px;}	
+		
+		clm{
+			float: right;
+			width: 25%;
+			padding: 70px;}
+		}
+		
+
+		}
+
+</style>
+</head>
+
+<body>
+	<div class="box">
+		<ul type="none">
+			<br><br>
+		    <li><a href="index.html">Home</a></li> 
+		     <li><a href="menu.html">Menu</a></li>
+		    <li><a href="#">Place Order </a></li>
+		 </ul>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br>
+<div class="header">
+	 Customer Name: <input type="text" value="">
+	<br><br>
+    Customer Telephone: <input type="digit" value=""><br><br>
+    Address: <input type="text" value="">
+	<br><br>
+ 
+   Order Date: <input type="date" value=""><br><br>
+   Order Time: <input type="time" value=""><br><br>
+</div>
+  
+<form class="info" method="post" action="order.php">
+	
+	
+<div class="a">
+   <input type="checkbox" value="burger">
+   Burger: <input type="radio" name="burger" value="Beef">Beef
+   <input type="radio" name="burger" value="Chichken">Chicken 
+    <input type="number" value=""><br><br>
+ 
+   <input type="checkbox" value="dumplings">
+   Dumplings: <input type="radio" name="dumplings" value="Beef">Beef
+   <input type="radio" name="dumplings" value="Chichken">Chicken 
+   <input type="radio" name="dumplings" value="Veg">Veg 
+
+    <input type="number" value=""><br><br>
+
+
+   <input type="checkbox" value="fired Chicken">
+   Fried Chicken:  <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="chowmein">
+   Chowmein: <input type="radio" name="chowmein" value="mixed">Mixed
+   <input type="radio" name="chowmein" value="Veg">Veg 
+   <input type="number" value=""><br><br>
+
+ <input type="checkbox" value="pasta">
+ Pasta: <input type="radio" name="pasta" value="shrimp">Shirmp
+   <input type="radio" name="pasta" value="chicken">Chicken  <input type="number" value=""><br><br>
+
+<input type="checkbox" value="chocolate mousse">
+   Chocolate Mousse: <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="ice-cream">
+   Ice-cream:  <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="brownie">
+   Brownie:  <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="latte">
+ Latte:  <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="shakes">
+   Shakes:  <input type="number" value=""><br><br>
+
+   <input type="checkbox" value="soft drinks">
+   Soft Drinks:  <input type="number" value=""><br><br>
+
+    <button>Submit</button>
+		</div>
+	 </div>
+  </div>
+	</form>
+	</body>
+	</html>
